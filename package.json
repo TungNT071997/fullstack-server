@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.1",
+    "sass": "^1.56.1"
+  }
+}
