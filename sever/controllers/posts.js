@@ -14,6 +14,7 @@ export const createPost = async (req, res) => {
   try {
     const newPost = req.body;
     const post = new postModel(newPost);
+
     await post.save();
     res.status(200).json(post);
   } catch (error) {
