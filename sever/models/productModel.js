@@ -11,11 +11,11 @@ const schema = new mongoose.Schema(
       required: true,
     },
     priceOld: {
-      type: Number,
+      type: String,
       default: 0,
     },
     priceCurrent: {
-      type: Number,
+      type: String,
       default: 0,
     },
   },
